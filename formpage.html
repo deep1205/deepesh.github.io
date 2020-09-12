@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> MYFORM </title>
+
+
+	<STYLE type="text/css" >
+		body{
+			background:black;
+			color:yellow;
+		}
+	</STYLE>
+
+</head>
+<body>
+
+
+
+
+	<h1>SEARCH ENGINES </h1>
+	<iframe src="https://www.bing.com" width="100%" height="400">
+		<p> your browser doesnot support iframe </p></iframe>
+
+		<iframe src="https://www.geeksforgeeks.com" width="100%" height="400">
+		<p> your browser doesnot support iframe </p></iframe>
+	<form name="EMPLOYMENT" action ="send.php" method="post">
+	<table width="600" border="1"  cellspacing="2" cellpadding="2">
+		<tr> 
+			<TD>EMPLOYMENT APLICATION-DEEPESH ARYA
+			</TD>
+		 </tr>
+
+		<tr>
+			<td> FIRST NAME </td>
+			<td ><input TYPE="text" name="fname" maxlength="50"></td>
+		   </tr>
+<tr>
+            <td> LAST NAME</td>
+			<td><input TYPE="text" name="fname" maxlength="50"></</td>
+		</tr>
+		<tr>
+			<td> POSITION </td>
+			<td>
+				<select name="position">
+					<option value="ac">   acccountabt </option>
+					<option value="re"> recomputant</option>
+					<option value="ba"> bank manager</option>
+					<option value="ce"> ceobank</option>
+					
+				</select>
+			</td>
+		</tr>
+		<tr>
+
+				<td> EXPERIENCE level </td>
+			<td>
+				<select name="experiencelevel">
+					<option value="ac">  BASIC </option>
+					<option value="re"> MEDIUM</option>
+					<option value="ba"> HARD</option>
+					<option value="ce"> VERY HARD </option>
+					
+				</select>
+			</td></tr>
+			<tr>
+				<td> JOB</td>
+				<td>
+
+					<input type="checkbox" name="ft" /> FULL TIME
+					<input type="checkbox" name="ht"/ > HALF TIME
+                     <input type="checkbox" name="pt" /> PARTIAL TIME
+
+
+
+				</td>
+			</tr>
+
+			<tr>
+				<td> EMPLOYMENT STATUS </td>
+				<td>
+
+					<input type="radio" name="ft" value="employed" />employed
+					<input type="radio" name="ft"  value="employed" / > unemployed
+                     <input type="radio" name="ft" value="employed" /> noneofthese
+
+
+
+
+
+
+				</td>
+			</tr>
+
+			<tr>
+				<td> ADDITIONAL INFORMATION </td> 
+				<td> <textarea name="comments "  cols="50" rows="5"></textarea>
+				</td></tr>
+
+
+
+		<tr>
+			<td></td>
+			<td>
+				<input type="submit" name="submit" value="SUBMITTED"/>
+                   <input type="reset" name="reset" value="Reset"/>
+
+
+			</td>
+	</table>
+</form>
+</body>
+</html>
+
